@@ -1,6 +1,6 @@
 <template>
   <div class="cat-card">
-    <img :src="src" alt="" class="cat-card__img">
+    <img :src="src" alt="" class="cat-card__img" />
   </div>
 </template>
 
@@ -12,17 +12,7 @@
       src: {
         type: String,
         required: true
-      },
-
-      heigth: {
-        type: Number,
-        required: true
-      },
-
-      width: {
-        type: Number,
-        required: true
-      },
+      }
     }
   }
 </script>
